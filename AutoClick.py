@@ -18,7 +18,7 @@ class Clicker:
             speed = float(speed)
             self.pag_pause = speed
             self.update_speed()
-        except:
+        except ValueError("Вводите только десятичные числа"):
             pass
 
     def update_speed(self):
